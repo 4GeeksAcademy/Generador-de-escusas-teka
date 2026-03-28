@@ -1,0 +1,75 @@
+.h1 {
+     background-color: rgb(12, 153, 171);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    text-align: center;
+    gap:10px;
+    cursor: none;
+    font-family: monospace;
+    
+}
+
+#botton {
+     background-color: blueviolet;
+    display: grid;
+    margin: 10px;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(45, 4, 180, 0.3);
+    box-sizing: content-box;
+    border-radius: 10px;
+    position: column;
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+    border: 0.5px solid black;
+    width: 450px;
+    grid-auto-columns: 200px;
+    cursor:text;
+    font-family:monospace;
+    margin:auto;
+    font-size: 18px;
+    font-weight: bold;
+}
+.generate-button {
+   background-color: rgb(91, 91, 173);
+    display: grid;
+    margin: 10px;
+    position: flex: 1 1 auto;;
+    box-shadow: 0 2px 5px rgba(83, 4, 117, 0.3);
+    box-sizing: content-box;
+    border-radius: 15px;
+    position: flex;
+    justify-content: first baseline;
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+    border: 0.5px solid black;
+    width: 120px;
+    grid-auto-columns: 200px;
+    cursor: pointer;
+    font-family: monospace;
+    margin:auto;
+    margin-top: 20px;
+   
+
+
+}
+#excuse {
+    box-sizing: border-box;
+    padding: 10px;
+     background-color: rgb(70, 196, 212);
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    cursor: text;
+}
